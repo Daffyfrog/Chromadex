@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.example.myapplication"
+        applicationId 'fr.nalric.chromadex'
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
@@ -15,7 +15,10 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    buildFeatures {
+        // Enables Jetpack Compose for this module
+        compose true
+    }
     buildTypes {
         release {
             minifyEnabled false

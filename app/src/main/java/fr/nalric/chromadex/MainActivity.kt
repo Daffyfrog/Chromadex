@@ -1,4 +1,4 @@
-package com.example.myapplication
+package fr.nalric.chromadex
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
